@@ -1,0 +1,22 @@
+{
+  "name": "lit-protocol",
+  "version": "1.0.0",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^7.0.1",
+    "@lit-protocol/constants": "^7.0.1",
+    "@lit-protocol/contracts-sdk": "^7.0.1",
+    "@lit-protocol/lit-node-client": "^7.0.1",
+    "chai": "^5.1.2",
+    "crypto": "^1.0.1",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security"
+  }
+}
