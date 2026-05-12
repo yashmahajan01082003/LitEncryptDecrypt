@@ -35,4 +35,50 @@ Traditional IPO systems rely on centralized servers for handling sensitive finan
 
 ---
 
+
+---
+
+## 🔐 How It Works
+
+1. **Input Data**
+   - IPO-related sensitive data is loaded (JSON/PDF)
+
+2. **Encryption**
+   - Data is encrypted using Lit Protocol access control conditions
+
+3. **Storage / Transfer**
+   - Encrypted data is securely stored or transmitted
+
+4. **Decryption**
+   - Only authorized wallet users can decrypt the data
+
+5. **Output**
+   - Secure IPO report or decrypted dataset is generated
+
+---
+
+## ⚙️ Tech Stack
+
+- Node.js
+- JavaScript
+- Lit Protocol (Web3 encryption & access control)
+- PDF processing utilities
+- JSON data handling
+
+---
+
 ## 📁 Project Structure
+
+
+LitEncryptDecrypt/
+│
+├── App.js # Main application logic
+├── utils.js # Encryption/decryption helpers
+├── test.js # Test cases
+├── test1.js - test10.js # Additional test modules
+├── IPODetails.json # IPO dataset
+├── A.pdf # Sample input PDF
+├── decrypted_output.pdf # Output after decryption
+├── package.json
+├── package-lock.json
+└── .env # Environment variables
